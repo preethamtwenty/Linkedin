@@ -1,0 +1,156 @@
+.posts{
+    
+    margin-top: 40px;
+
+}
+.postcard{
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid #D9D9D9;
+ 
+    padding:20px;
+}
+.typebar{
+    color:rgb(133, 133, 133);
+    border:1px solid rgb(218,218,218);
+    padding:14px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+}
+.post_icons{
+    display: flex;
+    float: 1;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+.post_icon{
+    display: flex !important;
+    padding:8px;
+}
+.photo_icon{
+    color:rgb(112,181,249);
+}
+.video_icon{
+    color:rgb(231,163,62);
+}
+
+.work_icon{
+    color:#AEB48A;
+}
+
+.article_icon{
+    color:rgb(127,193,94)
+}
+.icon_name{
+    color:grey;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.typebar:hover{
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+.article_icon:hover{
+    background-color: #ebebeb;
+    cursor: pointer;
+
+}
+.work_icon:hover{
+    background-color: #ebebeb;
+    cursor: pointer;
+
+}
+.video_icon:hover{
+    background-color: #ebebeb;
+    cursor: pointer;
+
+}
+.post_icon:hover{
+    background-color: #ebebeb;
+    cursor: pointer;
+    padding:8px;
+    border-radius: 7px;
+
+}
+
+.modal_heading{
+    color:black;
+    font-size: 20px;
+    
+    padding:3px;
+}
+.modal_body{
+    margin-top: 30px;
+   
+    
+}
+.modal__body__header{
+    display: flex;
+    align-items: center;
+
+}
+.modal_username{
+    margin-left: 20px;
+    
+}
+#modal{
+    width:40%;
+    height:60%;
+    border:none;
+    outline:none;
+}
+.modal_body_textarea{
+    width: 100%;
+    height: 150px;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.modal_body_textarea:focus{
+    border:none;
+    outline:none;
+}
+.modal_footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.modal_photo_icon{
+    color:rgb(102,102,102)
+}
+.submit_modal{
+    background-color: #0A66C2;
+    border:none;
+    color:white;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.modal_header{
+    display: flex;
+    border-bottom: 1px solid rgb(192,192,192);
+    justify-content: space-between;
+}
+.modal_close_icon{
+    color:rgb(102,102,102);
+    padding:10px;
+    
+
+}
+.modal_close_icon:hover{
+    color:rgb(102,102,102);
+    background-color:rgb(214, 214, 214) ;
+    cursor: pointer;
+    border-radius: 100px;
+    padding:10px
+}
+.submit_modal:hover{
+    cursor: pointer;
+
+}

@@ -1,0 +1,100 @@
+.post{
+    background-color: white;
+    padding:20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border:1px solid #D9D9D9;
+
+}
+
+.post_header{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.post_user{
+    margin-left: 20px;}
+.post_username{
+    font-weight: bold;
+
+}
+.post_user_number{
+    color:rgb(184, 184, 184)
+}
+.post_user_profile{
+    color:rgb(184, 184, 184);
+    font-size: small;
+
+}
+.post_user_time{
+    color:rgb(184, 184, 184);
+    font-size: small;
+    
+}
+.post_avatar{
+    height: 50px !important;
+    width:50px !important;
+}
+.post_body{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.post_image{
+    height:200px;
+    width:100%;
+   object-fit: contain;
+   margin-top: 30PX;
+}
+
+.post_body_likes{
+    display: flex;
+    margin-top: 5px;
+    border-bottom: 1px solid rgb(233,229,223);
+}
+.post_footer{
+    margin-top:10px;
+}
+.post_footer_comment{
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+}
+.comment_input{
+    border:none;
+    width:100%;
+
+}
+.comment_bar{
+    border:1px solid rgb(178,178,178);
+    padding:5px;
+    border-radius: 10px;
+    width:100%;
+    margin-left: 10px;
+}
+
+.comment_input:focus{
+    outline: none;
+    
+}
+.comment_bar:hover{
+    border:2px solid rgb(178,178,178) !important;
+
+}
+.like_icon{
+    color:rgb(230,247,255) !important;
+    background-color: rgb(20,133,189) !important;
+    border-radius: 100px;
+    padding:0.4px;
+    font-size:15px !important;
+} 
+.no_of_comments{
+    font-size: 12px;
+    margin-left: 4px;
+    color:rgb(102,102,102)
+    
+}
+.like__icon{
+    color:rgb(102,102,102)
+
+}

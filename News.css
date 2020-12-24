@@ -1,0 +1,14 @@
+.news{
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding:20px;
+    border:1px solid #D9D9D9;
+}
+.dot{
+    color:rgb(112,181,249);
+    font-size: 40px;
+}
+.news_header{
+    color:rgb(168, 168, 168);
+}

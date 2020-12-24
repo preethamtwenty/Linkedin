@@ -1,0 +1,22 @@
+.body{
+    display: flex;
+    padding:50px;
+}
+
+.body_left{
+    flex:0.25 !important;
+    margin-right:20px;
+
+
+  
+    
+    
+}
+.body_posts{
+    flex:0.5;
+    
+}
+.body_right{
+    flex:0.25;
+    margin-left:20px;
+}
